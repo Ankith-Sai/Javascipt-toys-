@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(71, 69, 69);
+    color: rgb(230, 230, 230); 
+    font-family: sans-serif;
+}
+
+.container{
+    text-align : center;
+    margin: 20px;
+    padding: 70px;
+}
+
+.container img{
+    align-self: center;
+    border: solid rgb(105, 102, 102) 2px;
+    border-radius: 50px; 
+
+    height: 25%;
+    width: 25%;
+}
+
+.container .counter{
+    font-weight: 1000;
+    font-size: 45px;
+
+    border: white solid 2px;
+}
+
+.container .counter p{
+    /* border: white solid 2px; */
+    margin: 10px;
+}
+
+.container .counter p.rank{
+    padding-top: 5px;
+}
+
+.container .counter p.text{
+    font-size: 22px;
+}
+
+.container .counter p.status{
+    padding-top: 14px;
+    font-size: 32px;
+
+    /* the animation of the status  */
+    animation-name: status;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes status{
+    0%{
+        color: white;
+    }
+    50%{
+        color: rgb(105, 102, 102);
+    }
+    100%{
+        color: white;
+    }
+}

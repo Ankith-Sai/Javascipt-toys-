@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 100ms;
+}
+
+.colors{
+    text-align: center;
+    /* align-items: center; */
+}
+
+#parent{
+    margin: 10px;
+    border: white solid 2px;
+    margin-top: 50px;
+}
+
+.pink,.orange,.blue,.red,.purple{
+    height: 50px;
+    width: 100px;
+    border: solid white 2px;
+
+    display: inline-block;
+
+    margin: 20px 0px;
+}
+
+.center{
+
+    border: white solid 2px;
+    height: 280px;
+    width: 280px;
+    border-radius: 280px;
+    margin: 40px;
+
+    transition-duration: 500ms;
+    transition-delay: 100ms;
+
+}
+
+#center{
+    /* margin-left: 40%; */
+    margin: 2% 35%;
+
+}
+
+.blue{
+    background-color: cyan;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: blueviolet;
+}
+.pink{
+    background-color: pink;
+}
+.red{
+    background-color: red;
+}
